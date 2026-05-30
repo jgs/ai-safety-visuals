@@ -3,13 +3,14 @@
   <desc id="desc">A conceptual visual showing how low light, motion blur, occlusion, compression, and temporal inconsistency can stress perception systems.</desc>
   <style>
     .bg { fill: #0f1411; }
-    .title { fill: #eef3ec; font: 700 58px Inter, Arial, sans-serif; }
-    .subtitle { fill: #b8c4ba; font: 30px Inter, Arial, sans-serif; }
-    .panel { fill: #17211c; stroke: #6f8376; stroke-width: 2; }
-    .panel2 { fill: #1b261f; stroke: #9fb7a6; stroke-width: 2; }
+    .title { fill: #f3f7f1; font: 700 52px Inter, Arial, sans-serif; }
+    .subtitle { fill: #d4ddd5; font: 30px Inter, Arial, sans-serif; }
+    .panel { fill: #18251f; stroke: #8aa08f; stroke-width: 2.5; }
+    .panel2 { fill: #1d2b23; stroke: #b7cfbd; stroke-width: 2.5; }
     .label { fill: #eef3ec; font: 700 29px Inter, Arial, sans-serif; }
     .text { fill: #cbd5cc; font: 23px Inter, Arial, sans-serif; }
-    .small { fill: #92a094; font: 21px Inter, Arial, sans-serif; }
+    .small { fill: #a9b7ac; font: 21px Inter, Arial, sans-serif; }
+    .source { fill: #819086; font: 18px Inter, Arial, sans-serif; }
     .accent { stroke: #b9d8bb; stroke-width: 4; fill: none; }
     .warn { stroke: #d6c7a1; stroke-width: 4; fill: none; }
     .fillAccent { fill: #b9d8bb; }
@@ -17,8 +18,8 @@
     .muted { fill: #6f8376; opacity: .8; }
   </style>
   <rect class="bg" width="1600" height="900"/>
-  <text class="title" x="88" y="112">Perception robustness: failure modes</text>
-  <text class="subtitle" x="90" y="158">Safety-critical perception needs testing beyond clean, static inputs.</text>
+  <text class="title" x="88" y="108">Perception can fail in ordinary conditions</text>
+  <text class="subtitle" x="90" y="154">Clean images are not enough for safety-critical systems.</text>
 
   <g transform="translate(100 230)">
     <rect class="panel" x="0" y="0" width="260" height="220" rx="8"/>
@@ -62,11 +63,8 @@
   </g>
 
   <rect class="panel2" x="225" y="535" width="1150" height="125" rx="8"/>
-  <text class="label" x="270" y="586">Operational risk appears when detection behavior changes under ordinary conditions.</text>
-  <text class="text" x="270" y="623">Robustness testing should record input condition, model output, confidence behavior,</text>
-  <text class="text" x="270" y="654">and frame-to-frame continuity.</text>
+  <text class="label" x="270" y="586">Robustness means testing the conditions the system may actually face.</text>
+  <text class="text" x="270" y="630">Track inputs, outputs, confidence, and frame-to-frame consistency.</text>
 
-  <rect x="100" y="735" width="1390" height="82" rx="8" fill="#121a16" stroke="#506156" stroke-width="2"/>
-  <text class="small" x="128" y="771">Visual type: conceptual explainer, not measured detector output. Sources: SRC-IMAGENET-C, SRC-NIST-AI-RMF-1</text>
-  <text class="small" x="128" y="799">Claim boundary: no accuracy, confidence, or incident-rate values are implied.</text>
+  <text class="source" x="100" y="812">Sources: ImageNet-C; NIST AI RMF. Conceptual visual, not measured detector output.</text>
 </svg>

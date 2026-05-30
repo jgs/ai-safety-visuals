@@ -3,13 +3,14 @@
   <desc id="desc">A process diagram showing that pre-deployment benchmarks should be connected to post-deployment monitoring, incidents, red teaming, and updates.</desc>
   <style>
     .bg { fill: #0f1411; }
-    .title { fill: #eef3ec; font: 700 58px Inter, Arial, sans-serif; }
-    .subtitle { fill: #b8c4ba; font: 30px Inter, Arial, sans-serif; }
-    .node { fill: #17211c; stroke: #6f8376; stroke-width: 2; }
-    .node2 { fill: #1b261f; stroke: #9fb7a6; stroke-width: 2; }
+    .title { fill: #f3f7f1; font: 700 52px Inter, Arial, sans-serif; }
+    .subtitle { fill: #d4ddd5; font: 30px Inter, Arial, sans-serif; }
+    .node { fill: #18251f; stroke: #8aa08f; stroke-width: 2.5; }
+    .node2 { fill: #1d2b23; stroke: #b7cfbd; stroke-width: 2.5; }
     .label { fill: #eef3ec; font: 700 30px Inter, Arial, sans-serif; }
     .text { fill: #cbd5cc; font: 24px Inter, Arial, sans-serif; }
-    .small { fill: #92a094; font: 22px Inter, Arial, sans-serif; }
+    .small { fill: #a9b7ac; font: 22px Inter, Arial, sans-serif; }
+    .source { fill: #819086; font: 18px Inter, Arial, sans-serif; }
     .line { stroke: #9fb7a6; stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
     .dash { stroke: #d6c7a1; stroke-width: 4; fill: none; stroke-linecap: round; stroke-dasharray: 10 13; }
     .accent { fill: #b9d8bb; }
@@ -24,20 +25,20 @@
     </marker>
   </defs>
   <rect class="bg" width="1600" height="900"/>
-  <text class="title" x="88" y="112">Evaluation does not stop at deployment</text>
-  <text class="subtitle" x="90" y="158">Benchmarks are evidence. Monitoring keeps evidence connected to real use.</text>
+  <text class="title" x="88" y="108">Evaluation continues after launch</text>
+  <text class="subtitle" x="90" y="154">Benchmarks help. Real use reveals what tests miss.</text>
 
   <rect class="node" x="100" y="302" width="250" height="160" rx="8"/>
   <text class="label" x="132" y="362">Benchmark</text>
-  <text class="text" x="132" y="407">Controlled test</text>
-  <text class="text" x="132" y="438">Known setup</text>
+  <text class="text" x="132" y="407">Controlled</text>
+  <text class="text" x="132" y="438">test setup</text>
 
   <path class="line" d="M370 382 H505" marker-end="url(#arrow)"/>
 
   <rect class="node2" x="530" y="302" width="250" height="160" rx="8"/>
   <text class="label" x="562" y="362">Deploy</text>
   <text class="text" x="562" y="407">Real users</text>
-  <text class="text" x="562" y="438">Changing context</text>
+  <text class="text" x="562" y="438">new contexts</text>
 
   <path class="line" d="M800 382 H935" marker-end="url(#arrow)"/>
 
@@ -49,15 +50,14 @@
   <rect class="node2" x="960" y="405" width="270" height="140" rx="8"/>
   <circle class="warn" cx="1004" cy="462" r="16"/>
   <text class="label" x="1032" y="472">Review</text>
-  <text class="text" x="992" y="515">Incidents + drift</text>
+  <text class="text" x="992" y="515">Failures + drift</text>
 
   <path class="line" d="M1235 295 H1395 V475 H1255" marker-end="url(#arrow)"/>
   <text class="small" x="1288" y="388">evidence loop</text>
 
   <path class="dash" d="M960 475 C740 675 430 650 260 488" marker-end="url(#warnArrow)"/>
-  <text class="label" x="390" y="650">Update tests when deployment reveals new failure modes.</text>
+  <rect x="360" y="606" width="850" height="76" rx="8" fill="#111a15" stroke="#596a5f" stroke-width="2"/>
+  <text class="label" x="410" y="654">Use deployment evidence to update tests.</text>
 
-  <rect x="100" y="730" width="1390" height="82" rx="8" fill="#121a16" stroke="#506156" stroke-width="2"/>
-  <text class="small" x="128" y="766">Visual type: process explainer. Sources: SRC-NIST-AI-RMF-1, SRC-OPENAI-PREPAREDNESS-2025, SRC-INTL-AI-SAFETY-REPORT-2025</text>
-  <text class="small" x="128" y="794">Claim boundary: monitoring reduces uncertainty; it does not guarantee safe behavior.</text>
+  <text class="source" x="100" y="812">Sources: NIST AI RMF; OpenAI Preparedness Framework; International AI Safety Report. Monitoring helps, but does not guarantee safety.</text>
 </svg>

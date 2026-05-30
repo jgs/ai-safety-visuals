@@ -3,26 +3,27 @@
   <desc id="desc">A conceptual diagram separating task-level AI exposure from full job replacement claims.</desc>
   <style>
     .bg { fill: #0f1411; }
-    .title { fill: #eef3ec; font: 700 58px Inter, Arial, sans-serif; }
-    .subtitle { fill: #b8c4ba; font: 30px Inter, Arial, sans-serif; }
-    .box { fill: #17211c; stroke: #6f8376; stroke-width: 2; }
-    .box2 { fill: #1b261f; stroke: #9fb7a6; stroke-width: 2; }
-    .auto { fill: #b9d8bb; }
-    .augment { fill: #d6c7a1; }
-    .human { fill: #8a9a91; }
+    .title { fill: #f3f7f1; font: 700 52px Inter, Arial, sans-serif; }
+    .subtitle { fill: #d4ddd5; font: 30px Inter, Arial, sans-serif; }
+    .box { fill: #18251f; stroke: #8aa08f; stroke-width: 2.5; }
+    .box2 { fill: #1d2b23; stroke: #b7cfbd; stroke-width: 2.5; }
+    .auto { fill: #cae7cc; }
+    .augment { fill: #e2d2a8; }
+    .human { fill: #a7b8ae; }
     .label { fill: #eef3ec; font: 700 32px Inter, Arial, sans-serif; }
     .text { fill: #cbd5cc; font: 25px Inter, Arial, sans-serif; }
-    .small { fill: #92a094; font: 22px Inter, Arial, sans-serif; }
+    .small { fill: #a9b7ac; font: 22px Inter, Arial, sans-serif; }
+    .source { fill: #819086; font: 18px Inter, Arial, sans-serif; }
     .dark { fill: #101512; font: 25px Inter, Arial, sans-serif; }
     .line { stroke: #9fb7a6; stroke-width: 4; fill: none; stroke-linecap: round; }
   </style>
   <rect class="bg" width="1600" height="900"/>
-  <text class="title" x="88" y="112">Task automation is not job replacement</text>
-  <text class="subtitle" x="90" y="158">A job is a bundle of tasks. Exposure claims need careful boundaries.</text>
+  <text class="title" x="88" y="108">Task automation ≠ job replacement</text>
+  <text class="subtitle" x="90" y="154">Automating one task is not the same as replacing the whole role.</text>
 
   <rect class="box" x="112" y="250" width="430" height="430" rx="8"/>
   <text class="label" x="152" y="313">One job role</text>
-  <text class="small" x="152" y="354">Example structure, not a measured occupation</text>
+  <text class="small" x="152" y="354">Example role structure</text>
   <g transform="translate(152 395)">
     <rect class="auto" x="0" y="0" width="320" height="42" rx="6"/>
     <text class="dark" x="18" y="29">Routine text task</text>
@@ -39,14 +40,14 @@
   <rect class="box2" x="760" y="228" width="300" height="172" rx="8"/>
   <circle class="auto" cx="818" cy="294" r="20"/>
   <text class="label" x="856" y="304">Automated</text>
-  <text class="text" x="800" y="354">Narrow task can move</text>
-  <text class="text" x="800" y="384">to software workflow.</text>
+  <text class="text" x="800" y="354">A narrow task moves</text>
+  <text class="text" x="800" y="384">to software.</text>
 
   <rect class="box2" x="760" y="440" width="300" height="172" rx="8"/>
   <circle class="augment" cx="818" cy="506" r="20"/>
   <text class="label" x="856" y="516">Augmented</text>
-  <text class="text" x="800" y="566">Human remains in</text>
-  <text class="text" x="800" y="596">the work loop.</text>
+  <text class="text" x="800" y="566">AI supports</text>
+  <text class="text" x="800" y="596">the worker.</text>
 
   <rect class="box2" x="1120" y="332" width="330" height="192" rx="8"/>
   <circle class="human" cx="1180" cy="398" r="20"/>
@@ -54,9 +55,9 @@
   <text class="text" x="1160" y="458">Context, trust, physical</text>
   <text class="text" x="1160" y="488">constraints, judgment.</text>
 
-  <text class="label" x="748" y="672">Correct claim: task exposure can change work.</text>
-  <text class="text" x="748" y="713">Stronger claim: full job replacement needs separate evidence.</text>
+  <rect x="710" y="630" width="750" height="92" rx="8" fill="#111a15" stroke="#596a5f" stroke-width="2"/>
+  <text class="label" x="748" y="676">Task exposure can change work.</text>
+  <text class="text" x="748" y="710">Full replacement needs separate evidence.</text>
 
-  <rect x="100" y="760" width="1390" height="72" rx="8" fill="#121a16" stroke="#506156" stroke-width="2"/>
-  <text class="small" x="128" y="805">Visual type: conceptual explainer. Sources: SRC-OECD-AI-WORK, SRC-STANFORD-AI-INDEX</text>
+  <text class="source" x="100" y="820">Sources: OECD AI and Work; Stanford AI Index. Conceptual visual, not a forecast.</text>
 </svg>
