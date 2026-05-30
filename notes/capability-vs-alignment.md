@@ -4,13 +4,13 @@ Matching visual: [`capability-vs-alignment-gap.svg`](../visuals/capability-vs-al
 
 ## Core Idea
 
-As systems become more capable, evaluations and safeguards need to keep pace. The visual avoids plotted data and instead shows a conceptual gap between capability growth and the slower work of evaluation, monitoring, safeguards, and governance.
+As systems become more capable, evaluations and safeguards need to keep pace. The visual avoids measured claims and shows a conceptual gap between capability growth and the work of evaluation, monitoring, safeguards, and governance.
 
 ## Source-Backed Claims
 
 - OpenAI's Preparedness Framework describes evaluating frontier capabilities, identifying thresholds, and requiring safeguards for higher-risk capability levels. Source: `SRC-OPENAI-PREPAREDNESS-2025`.
 - Anthropic's Responsible Scaling Policy links stronger model capabilities with stronger safety and security measures. Source: `SRC-ANTHROPIC-RSP-UPDATED`.
-- METR researches evaluation of AI capability through task-completion ability, including longer-horizon tasks. Source: `SRC-METR-LONG-TASKS`.
+- METR researches evaluation of AI capability through task-completion ability, including long software tasks. Source: `SRC-METR-LONG-TASKS`.
 
 ## Claim Boundary
 

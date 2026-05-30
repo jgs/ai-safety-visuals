@@ -35,7 +35,7 @@ This registry is the evidence base for the visuals and notes in this repository.
 - Title: AI Index Report
 - Publisher: Stanford HAI
 - URL: https://hai.stanford.edu/ai-index
-- Used for: Broad AI trend context, adoption, research, performance, policy, and ecosystem reporting.
+- Used for: Broad AI trend context, adoption, research, performance, policy, and ecosystem reporting when citing a specific report year.
 - Claim boundary: Use exact year and metric when citing a specific chart or statistic.
 
 ### SRC-OECD-AI-WORK
@@ -76,11 +76,11 @@ This registry is the evidence base for the visuals and notes in this repository.
 
 ### SRC-METR-LONG-TASKS
 
-- Title: Measuring AI Ability to Complete Long Tasks
+- Title: Measuring AI Ability to Complete Long Software Tasks
 - Publisher: METR
 - URL: https://metr.org/index.html
 - Related paper: https://arxiv.org/abs/2503.14499
-- Used for: Capability evaluation as task-completion measurement and long-horizon capability framing.
+- Used for: Capability evaluation as task-completion measurement and long software-task capability framing.
 - Claim boundary: Do not reproduce trend numbers or forecasts unless citing the paper directly and preserving caveats.
 
 ## Perception Robustness

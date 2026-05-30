@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">Capability versus alignment gap</title>
-  <desc id="desc">A conceptual diagram showing that evaluation, safeguards, monitoring, and governance must keep pace as AI capability increases.</desc>
+  <desc id="desc">A conceptual diagram showing that evaluation, safeguards, monitoring, and governance should keep pace as AI capability increases.</desc>
   <style>
     .bg { fill: #0f1411; }
     .title { fill: #eef3ec; font: 700 58px Inter, Arial, sans-serif; }
@@ -17,7 +17,7 @@
   </style>
   <rect class="bg" width="1600" height="900"/>
   <text class="title" x="88" y="112">Capability vs alignment pressure</text>
-  <text class="subtitle" x="90" y="158">Not a forecast: a systems view of why safeguards must scale with capability.</text>
+  <text class="subtitle" x="90" y="158">Not a forecast: a systems view of why safeguards should scale with capability.</text>
 
   <g transform="translate(130 215)">
     <path class="guide" d="M0 420 H1110 M0 320 H1110 M0 220 H1110 M0 120 H1110 M0 20 H1110"/>

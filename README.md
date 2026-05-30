@@ -2,15 +2,25 @@
 
 Evidence-first visual explainers for AI safety, evaluation, robustness, and intelligent systems.
 
-This repository is a visual knowledge base for explaining AI safety without hype. It collects source-backed diagrams, markdown explainers, reusable social graphics, and visual notes about alignment, frontier risk frameworks, job exposure, evaluation, monitoring, and perception robustness.
+This repository is a visual knowledge base for explaining AI safety without hype. It collects source-backed diagrams, markdown explainers, reusable social graphics, and visual notes about alignment, evaluation, observability, job exposure, and perception robustness.
 
 Related project: [SIGNALWATCH](https://jgsops.dev)
+
+## Preview
+
+| Alignment | Capability pressure | Work exposure |
+| --- | --- | --- |
+| ![Alignment objective mismatch](visuals/alignment/alignment-objective-mismatch.png) | ![Capability vs alignment pressure](visuals/capability-vs-alignment/capability-vs-alignment-gap.png) | ![Task automation vs job replacement](visuals/job-displacement/task-automation-vs-job-replacement.png) |
+
+| Evaluation loop | Perception robustness |
+| --- | --- |
+| ![Evaluation after deployment](visuals/evaluation/evaluation-after-deployment.png) | ![Perception robustness failure modes](visuals/perception-robustness/perception-failure-modes.png) |
 
 ## What This Is
 
 - A public library of SVG-first explainers for AI safety and robustness.
 - A source-backed reference for turning complex technical ideas into calm, readable visuals.
-- A reusable asset base for GitHub, LinkedIn, X, talks, and educational writing.
+- A reusable asset base for GitHub, LinkedIn, X, talks, and technical writing.
 - A place to separate conceptual diagrams from measured evidence.
 
 ## What This Is Not
@@ -26,7 +36,7 @@ Related project: [SIGNALWATCH](https://jgsops.dev)
 | Collection | Focus | Initial asset |
 | --- | --- | --- |
 | Alignment Basics | Objective mismatch, proxy goals, reward hacking, oversight difficulty | [`alignment-objective-mismatch.svg`](visuals/alignment/alignment-objective-mismatch.svg) |
-| Capability vs Alignment | Why evaluation and monitoring pressure rises as systems become more capable | [`capability-vs-alignment-gap.svg`](visuals/capability-vs-alignment/capability-vs-alignment-gap.svg) |
+| Capability vs Alignment | Why evaluation and monitoring pressure can rise as systems become more capable | [`capability-vs-alignment-gap.svg`](visuals/capability-vs-alignment/capability-vs-alignment-gap.svg) |
 | Job Displacement & Task Exposure | Task automation versus full job replacement, transition risk, reskilling pressure | [`task-automation-vs-job-replacement.svg`](visuals/job-displacement/task-automation-vs-job-replacement.svg) |
 | Evaluation & Monitoring | Limits of pre-deployment benchmarks, post-deployment monitoring, red teaming | [`evaluation-after-deployment.svg`](visuals/evaluation/evaluation-after-deployment.svg) |
 | Perception Robustness | Low light, blur, occlusion, confidence collapse, temporal inconsistency | [`perception-failure-modes.svg`](visuals/perception-robustness/perception-failure-modes.svg) |
@@ -55,7 +65,7 @@ Preferred source types:
 
 ## How To Use
 
-Use the SVGs directly in posts, decks, README files, and essays. For raster export, open the SVG in a vector editor or browser and export to PNG at 2x or 3x scale.
+Use the SVGs directly in posts, decks, README files, and essays. Matching PNG exports are included for quick social sharing.
 
 Suggested workflows:
 
@@ -79,7 +89,6 @@ Reusable LinkedIn/X copy examples are in [`templates/social-post-copy.md`](templ
 ## Roadmap
 
 - Add a source-backed AI safety timeline.
-- Add PNG exports for each visual.
 - Add framework comparison cards for OpenAI, Anthropic, NIST, and other public frontier AI safety frameworks.
 - Add visual notes on red teaming, benchmark leakage, distribution shift, and model observability.
 - Add export guidance for LinkedIn carousel and X image formats.

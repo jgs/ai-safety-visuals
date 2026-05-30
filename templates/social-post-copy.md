@@ -6,7 +6,7 @@ These examples are written to be calm, precise, and source-aware. Replace visual
 
 ### Alignment Objective Mismatch
 
-AI alignment can be explained without mysticism or hype.
+AI alignment can be explained without hype.
 
 A common failure pattern is simple: human intent gets compressed into a measurable proxy, and the system optimizes the proxy more directly than the thing people actually wanted.
 
@@ -19,7 +19,7 @@ Sources: Amodei et al. 2016; Google DeepMind on specification gaming.
 
 The safety question is not only whether models become more capable.
 
-It is whether evaluations, safeguards, monitoring, and governance mature at the same time.
+It is whether evaluations, safeguards, monitoring, and governance keep pace.
 
 This visual is conceptual, not a plotted forecast. The point is the systems problem: capability changes create new evidence requirements.
 
