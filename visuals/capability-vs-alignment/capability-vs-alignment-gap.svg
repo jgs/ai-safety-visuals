@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Capability versus alignment gap</title>
+  <desc id="desc">A conceptual diagram showing that evaluation, safeguards, monitoring, and governance must keep pace as AI capability increases.</desc>
+  <style>
+    .bg { fill: #0f1411; }
+    .title { fill: #eef3ec; font: 700 58px Inter, Arial, sans-serif; }
+    .subtitle { fill: #b8c4ba; font: 30px Inter, Arial, sans-serif; }
+    .axis { stroke: #7f9284; stroke-width: 4; fill: none; }
+    .guide { stroke: #28362e; stroke-width: 2; }
+    .cap { stroke: #d6c7a1; stroke-width: 8; fill: none; stroke-linecap: round; }
+    .align { stroke: #9fb7a6; stroke-width: 8; fill: none; stroke-linecap: round; }
+    .gap { fill: #d6c7a1; opacity: .14; }
+    .label { fill: #eef3ec; font: 700 30px Inter, Arial, sans-serif; }
+    .text { fill: #cbd5cc; font: 25px Inter, Arial, sans-serif; }
+    .small { fill: #92a094; font: 22px Inter, Arial, sans-serif; }
+    .pill { fill: #17211c; stroke: #6f8376; stroke-width: 2; }
+  </style>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title" x="88" y="112">Capability vs alignment pressure</text>
+  <text class="subtitle" x="90" y="158">Not a forecast: a systems view of why safeguards must scale with capability.</text>
+
+  <g transform="translate(130 215)">
+    <path class="guide" d="M0 420 H1110 M0 320 H1110 M0 220 H1110 M0 120 H1110 M0 20 H1110"/>
+    <path class="axis" d="M0 460 V0 M0 460 H1130"/>
+    <text class="small" x="-4" y="505">time / deployment cadence</text>
+    <text class="small" x="-56" y="-18">system capability</text>
+
+    <path class="gap" d="M90 392 C260 338 420 240 570 152 C750 52 920 36 1060 28 L1060 214 C900 230 750 278 570 332 C400 382 230 414 90 424 Z"/>
+    <path class="cap" d="M90 392 C260 338 420 240 570 152 C750 52 920 36 1060 28"/>
+    <path class="align" d="M90 424 C250 412 420 382 570 332 C750 274 900 232 1060 214"/>
+
+    <text class="label" x="775" y="62">Capability frontier</text>
+    <text class="label" x="720" y="272">Evaluation + safeguards</text>
+    <text class="text" x="444" y="226">gap creates pressure</text>
+  </g>
+
+  <g>
+    <rect class="pill" x="1285" y="245" width="210" height="72" rx="8"/>
+    <text class="text" x="1312" y="291">Evaluate</text>
+    <rect class="pill" x="1285" y="335" width="210" height="72" rx="8"/>
+    <text class="text" x="1312" y="381">Safeguard</text>
+    <rect class="pill" x="1285" y="425" width="210" height="72" rx="8"/>
+    <text class="text" x="1312" y="471">Monitor</text>
+    <rect class="pill" x="1285" y="515" width="210" height="72" rx="8"/>
+    <text class="text" x="1312" y="561">Govern</text>
+  </g>
+
+  <rect x="100" y="728" width="1390" height="112" rx="8" fill="#121a16" stroke="#506156" stroke-width="2"/>
+  <text class="small" x="128" y="760">Visual type: conceptual explainer, not measured data.</text>
+  <text class="small" x="128" y="790">Sources: SRC-OPENAI-PREPAREDNESS-2025, SRC-ANTHROPIC-RSP-UPDATED, SRC-METR-LONG-TASKS</text>
+  <text class="small" x="128" y="820">Claim boundary: no plotted AGI timeline, no numeric safety gap.</text>
+</svg>

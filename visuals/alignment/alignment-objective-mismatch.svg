@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Alignment objective mismatch</title>
+  <desc id="desc">A conceptual diagram showing how human intent can be compressed into a proxy objective that a model optimizes, producing behavior that misses the intended goal.</desc>
+  <style>
+    .bg { fill: #0f1411; }
+    .grid { stroke: #213027; stroke-width: 1; opacity: .55; }
+    .title { fill: #eef3ec; font: 700 58px Inter, Arial, sans-serif; }
+    .subtitle { fill: #b8c4ba; font: 30px Inter, Arial, sans-serif; }
+    .card { fill: #17211c; stroke: #738879; stroke-width: 2; }
+    .card2 { fill: #1b261f; stroke: #9fb7a6; stroke-width: 2; }
+    .label { fill: #eef3ec; font: 700 31px Inter, Arial, sans-serif; }
+    .text { fill: #cbd5cc; font: 25px Inter, Arial, sans-serif; }
+    .small { fill: #92a094; font: 22px Inter, Arial, sans-serif; }
+    .accent { fill: #b9d8bb; }
+    .warn { fill: #d6c7a1; }
+    .line { stroke: #9fb7a6; stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .dash { stroke: #d6c7a1; stroke-width: 4; fill: none; stroke-linecap: round; stroke-dasharray: 12 14; }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#9fb7a6"/>
+    </marker>
+    <marker id="warnArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#d6c7a1"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <g>
+    <path class="grid" d="M80 210 H1520 M80 330 H1520 M80 450 H1520 M80 570 H1520 M80 690 H1520"/>
+    <path class="grid" d="M220 180 V760 M460 180 V760 M700 180 V760 M940 180 V760 M1180 180 V760 M1420 180 V760"/>
+  </g>
+  <text class="title" x="88" y="112">Alignment: objective mismatch</text>
+  <text class="subtitle" x="90" y="158">When the measurable target is only a proxy for what people actually intended.</text>
+
+  <rect class="card" x="100" y="265" width="310" height="250" rx="8"/>
+  <circle class="accent" cx="154" cy="326" r="18"/>
+  <text class="label" x="190" y="337">Human intent</text>
+  <text class="text" x="132" y="397">Useful, safe,</text>
+  <text class="text" x="132" y="432">truthful behavior</text>
+  <text class="small" x="132" y="482">Hard to fully specify</text>
+
+  <path class="line" d="M430 390 H570" marker-end="url(#arrow)"/>
+  <text class="small" x="450" y="356">translated into</text>
+
+  <rect class="card2" x="590" y="265" width="310" height="250" rx="8"/>
+  <rect class="accent" x="625" y="307" width="36" height="36" rx="7"/>
+  <text class="label" x="682" y="337">Proxy objective</text>
+  <text class="text" x="622" y="397">Reward, score,</text>
+  <text class="text" x="622" y="432">benchmark, rule</text>
+  <text class="small" x="622" y="482">Easier to optimize</text>
+
+  <path class="line" d="M920 390 H1060" marker-end="url(#arrow)"/>
+  <text class="small" x="942" y="356">optimized by</text>
+
+  <rect class="card2" x="1080" y="265" width="310" height="250" rx="8"/>
+  <path class="accent" d="M1134 304 l26 17 v34 l-26 17 l-26-17 v-34z"/>
+  <text class="label" x="1180" y="337">Model behavior</text>
+  <text class="text" x="1112" y="397">May satisfy the</text>
+  <text class="text" x="1112" y="432">letter of the target</text>
+  <text class="small" x="1112" y="482">Not always the spirit</text>
+
+  <path class="dash" d="M1235 542 C1090 690 610 690 300 542" marker-end="url(#warnArrow)"/>
+  <rect x="493" y="610" width="690" height="58" rx="8" fill="#0f1411" opacity=".92"/>
+  <text class="label" x="520" y="650">Proxy success can diverge from intended success.</text>
+
+  <rect x="100" y="705" width="1390" height="72" rx="8" fill="#121a16" stroke="#506156" stroke-width="2"/>
+  <text class="small" x="128" y="750">Visual type: conceptual explainer. Sources: SRC-CONCRETE-AI-SAFETY-2016, SRC-DEEPMIND-SPEC-GAMING</text>
+</svg>

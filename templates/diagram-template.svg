@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Safety Visuals diagram template</title>
+  <desc id="desc">Dark neutral SVG template for source-backed AI safety explainers.</desc>
+  <style>
+    .bg { fill: #101512; }
+    .panel { fill: #17211c; stroke: #6f8376; stroke-width: 2; }
+    .muted { fill: #aeb8b0; font: 28px Inter, Arial, sans-serif; }
+    .title { fill: #edf2eb; font: 700 56px Inter, Arial, sans-serif; }
+    .label { fill: #edf2eb; font: 600 32px Inter, Arial, sans-serif; }
+    .line { stroke: #9fb7a6; stroke-width: 4; fill: none; }
+    .accent { fill: #b9d8bb; }
+  </style>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title" x="96" y="118">Diagram title</text>
+  <text class="muted" x="96" y="166">One-line evidence-aware subtitle.</text>
+  <rect class="panel" x="96" y="230" width="1408" height="520" rx="8"/>
+  <circle class="accent" cx="250" cy="490" r="56"/>
+  <path class="line" d="M330 490 H1270"/>
+  <text class="label" x="96" y="822">Source IDs: SRC-EXAMPLE</text>
+</svg>

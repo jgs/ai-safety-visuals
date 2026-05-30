@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Task automation versus job replacement</title>
+  <desc id="desc">A conceptual diagram separating task-level AI exposure from full job replacement claims.</desc>
+  <style>
+    .bg { fill: #0f1411; }
+    .title { fill: #eef3ec; font: 700 58px Inter, Arial, sans-serif; }
+    .subtitle { fill: #b8c4ba; font: 30px Inter, Arial, sans-serif; }
+    .box { fill: #17211c; stroke: #6f8376; stroke-width: 2; }
+    .box2 { fill: #1b261f; stroke: #9fb7a6; stroke-width: 2; }
+    .auto { fill: #b9d8bb; }
+    .augment { fill: #d6c7a1; }
+    .human { fill: #8a9a91; }
+    .label { fill: #eef3ec; font: 700 32px Inter, Arial, sans-serif; }
+    .text { fill: #cbd5cc; font: 25px Inter, Arial, sans-serif; }
+    .small { fill: #92a094; font: 22px Inter, Arial, sans-serif; }
+    .dark { fill: #101512; font: 25px Inter, Arial, sans-serif; }
+    .line { stroke: #9fb7a6; stroke-width: 4; fill: none; stroke-linecap: round; }
+  </style>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title" x="88" y="112">Task automation is not job replacement</text>
+  <text class="subtitle" x="90" y="158">A job is a bundle of tasks. Exposure claims need careful boundaries.</text>
+
+  <rect class="box" x="112" y="250" width="430" height="430" rx="8"/>
+  <text class="label" x="152" y="313">One job role</text>
+  <text class="small" x="152" y="354">Example structure, not a measured occupation</text>
+  <g transform="translate(152 395)">
+    <rect class="auto" x="0" y="0" width="320" height="42" rx="6"/>
+    <text class="dark" x="18" y="29">Routine text task</text>
+    <rect class="augment" x="0" y="64" width="250" height="42" rx="6"/>
+    <text class="dark" x="18" y="93">Analysis support</text>
+    <rect class="human" x="0" y="128" width="360" height="42" rx="6"/>
+    <text class="dark" x="18" y="157">Accountability</text>
+    <rect class="augment" x="0" y="192" width="285" height="42" rx="6"/>
+    <text class="dark" x="18" y="221">Drafting help</text>
+  </g>
+
+  <path class="line" d="M590 458 H730"/>
+
+  <rect class="box2" x="760" y="228" width="300" height="172" rx="8"/>
+  <circle class="auto" cx="818" cy="294" r="20"/>
+  <text class="label" x="856" y="304">Automated</text>
+  <text class="text" x="800" y="354">Narrow task can move</text>
+  <text class="text" x="800" y="384">to software workflow.</text>
+
+  <rect class="box2" x="760" y="440" width="300" height="172" rx="8"/>
+  <circle class="augment" cx="818" cy="506" r="20"/>
+  <text class="label" x="856" y="516">Augmented</text>
+  <text class="text" x="800" y="566">Human remains in</text>
+  <text class="text" x="800" y="596">the work loop.</text>
+
+  <rect class="box2" x="1120" y="332" width="330" height="192" rx="8"/>
+  <circle class="human" cx="1180" cy="398" r="20"/>
+  <text class="label" x="1218" y="408">Human-led</text>
+  <text class="text" x="1160" y="458">Context, trust, physical</text>
+  <text class="text" x="1160" y="488">constraints, judgment.</text>
+
+  <text class="label" x="748" y="672">Correct claim: task exposure can change work.</text>
+  <text class="text" x="748" y="713">Stronger claim: full job replacement needs separate evidence.</text>
+
+  <rect x="100" y="760" width="1390" height="72" rx="8" fill="#121a16" stroke="#506156" stroke-width="2"/>
+  <text class="small" x="128" y="805">Visual type: conceptual explainer. Sources: SRC-OECD-AI-WORK, SRC-STANFORD-AI-INDEX</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600" role="img" aria-labelledby="title desc">
+  <title id="title">LinkedIn square card template</title>
+  <desc id="desc">Square dark neutral template for AI Safety Visuals social posts.</desc>
+  <style>
+    .bg { fill: #101512; }
+    .rule { stroke: #789080; stroke-width: 3; }
+    .kicker { fill: #b9d8bb; font: 700 30px Inter, Arial, sans-serif; letter-spacing: 0; }
+    .title { fill: #edf2eb; font: 700 78px Inter, Arial, sans-serif; }
+    .body { fill: #cbd4cc; font: 38px Inter, Arial, sans-serif; }
+    .foot { fill: #8d9b91; font: 26px Inter, Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1600" height="1600"/>
+  <text class="kicker" x="120" y="160">AI SAFETY VISUALS</text>
+  <line class="rule" x1="120" y1="205" x2="1480" y2="205"/>
+  <text class="title" x="120" y="360">Card title</text>
+  <text class="body" x="120" y="460">Short, source-aware explanation.</text>
+  <text class="foot" x="120" y="1460">Conceptual visual. Sources in caption.</text>
+</svg>

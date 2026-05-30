@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">X post image template</title>
+  <desc id="desc">Wide dark neutral template for concise AI Safety Visuals posts.</desc>
+  <style>
+    .bg { fill: #101512; }
+    .title { fill: #edf2eb; font: 700 62px Inter, Arial, sans-serif; }
+    .body { fill: #cbd4cc; font: 34px Inter, Arial, sans-serif; }
+    .tag { fill: #b9d8bb; font: 700 26px Inter, Arial, sans-serif; }
+    .line { stroke: #789080; stroke-width: 3; }
+  </style>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="tag" x="96" y="110">AI SAFETY VISUALS</text>
+  <line class="line" x1="96" y1="146" x2="1504" y2="146"/>
+  <text class="title" x="96" y="275">Post title</text>
+  <text class="body" x="96" y="350">One idea. One boundary. One source trail.</text>
+  <text class="body" x="96" y="760">Source IDs: SRC-EXAMPLE</text>
+</svg>
